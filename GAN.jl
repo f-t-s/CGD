@@ -1,4 +1,6 @@
 # This file contains the functions needed to define the gans
+using LinearAlgebra 
+
 function crossEntTrue(x)
   return max(x, 0) - x + log(1 + exp(-abs(x)))
 end
