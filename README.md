@@ -8,3 +8,5 @@ using Pkg; Pkg.activate("."); Pkg.instantiate()
 ```
 
 before running the examples.
+
+Check out https://github.com/devzhk/Implicit-Competitive-Regularization for an implementation of CGD in pytorch and https://github.com/gehring/fax for an implementation using JAX!
